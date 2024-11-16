@@ -15,12 +15,12 @@ class TabWidget2 extends StatelessWidget {
             border: Border.all(color: Colors.grey, width: 1),
             borderRadius: BorderRadius.circular(16.0),
           ),
-          child: Text(
+          child: const Text(
             'CICT Fundays Photo Dummp',
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,
-              color: const Color.fromARGB(255, 228, 219, 197),
+              color: Color.fromARGB(255, 228, 219, 197),
             ),
             textAlign: TextAlign.center,
           ),

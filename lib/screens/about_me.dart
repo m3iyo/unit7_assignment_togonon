@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 /* import 'package:unit7_assignment_togonon/components/tab_widget_1.dart'; */
 import 'package:unit7_assignment_togonon/components/tab_widget_2.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +27,7 @@ class _About_MeState extends State<About_Me> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Center(child: const Text("About Me")), // Centered title
+          title: const Center(child: Text("About Me")), // Centered title
           bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.person), text: "Personal Info"),
@@ -68,9 +70,9 @@ class _About_MeState extends State<About_Me> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Column(
+                                const Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: const [
+                                  children: [
                                     Text(
                                       "Lord Patrick Raizen \nG. Togonon, 22",
                                       style: TextStyle(
@@ -104,10 +106,10 @@ class _About_MeState extends State<About_Me> {
                         color: Colors.grey[200],
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: SingleChildScrollView(
+                      child: const SingleChildScrollView(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             Text(
                               "Additional Info",
                               style: TextStyle(
